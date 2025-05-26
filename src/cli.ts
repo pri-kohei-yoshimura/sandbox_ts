@@ -1,9 +1,4 @@
-declare const require: any;
-declare const console: any;
-declare const module: any;
-declare const process: any;
-
-const readline = require('readline');
+import readline from 'readline';
 import { TodoList } from './todoList';
 import {
   MENU_ADD,

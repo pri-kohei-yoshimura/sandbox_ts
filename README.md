@@ -4,15 +4,31 @@ sandbox of typescript.
 ## Simple TODO List
 
 This repository includes a small TypeScript program that implements a very
-basic command line TODO list. To try it out:
+basic TODO list.  It can be used from the command line or in the browser.
+
+### CLI usage
 
 ```bash
 # compile TypeScript sources
-npx tsc
+npm run build
 
 # run the CLI
-node dist/cli.js
+npm start
 ```
 
-The program allows you to add tasks, list them and remove tasks during a single
-session. Tasks are kept in memory only.
+### Browser usage
+
+```bash
+# build the project and start a simple web server
+npm run serve
+
+# then open http://localhost:8080/public/index.html in your browser
+```
+
+### Running tests
+
+```bash
+npm test
+```
+
+Tasks are kept in memory only for both versions.
