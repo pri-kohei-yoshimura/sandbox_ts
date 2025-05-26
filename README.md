@@ -22,7 +22,8 @@ npm start
 # build the project and start a simple web server
 npm run serve
 
-# then open http://localhost:8080/public/index.html in your browser
+# then open http://localhost:8080/ in your browser
+# (it redirects to the actual app under `public/`)
 ```
 
 ### Running tests
